@@ -89,4 +89,10 @@ class Database
     }
 
 }
+$n = new Database();
+$data = [
+        'ip'=>'123',
+        'counter'=>'22'
+        ];
+$n->insert('ip',$data);
 ?>

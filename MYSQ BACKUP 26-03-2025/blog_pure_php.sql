@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Mar 25, 2025 at 11:19 PM
+-- Generation Time: Apr 18, 2025 at 09:36 PM
 -- Server version: 8.0.40
 -- PHP Version: 8.2.12
 
@@ -64,6 +64,14 @@ CREATE TABLE `ip` (
   `ip` varchar(45) COLLATE utf8mb3_unicode_ci DEFAULT NULL,
   `counter` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+
+--
+-- Dumping data for table `ip`
+--
+
+INSERT INTO `ip` (`ip`, `counter`) VALUES
+('123', 22),
+('123', 22);
 
 -- --------------------------------------------------------
 
