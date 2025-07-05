@@ -80,7 +80,7 @@ class Database
     }
 
     // Method to select all data from a table
-    public function all($table, $columns = "*")
+    public function select_all($table, $columns = "*")
     {
         $sql = "SELECT $columns FROM $table";
         $stmt = $this->connection->prepare($sql);
